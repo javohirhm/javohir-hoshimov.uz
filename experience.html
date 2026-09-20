@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Experience — Javohir Hoshimov</title>
+<meta name="description" content="Where Javohir Hoshimov has worked — AI Engineer at SinoAI, Data Science roles at Aisha AI and RealSoft, and operating CommerceHub marketplace shops." />
+<meta name="theme-color" content="#0a0b10" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="brand">
+      <img src="/profile.jpg" alt="" class="brand-mark" />
+      <span class="brand-name">Javohir Hoshimov</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/experience">Experience</a>
+      <a href="/projects">Projects</a>
+      <a href="/stack">Stack</a>
+      <a href="https://md.javohir-hoshimov.uz/">Blog</a>
+      <a href="/contact" class="nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page">
+    <div class="container">
+      <a href="/" class="page-back">← Home</a>
+      <p class="page-eyebrow">Experience</p>
+      <h1 class="page-title">Where I've been.</h1>
+      <p class="page-lede">
+        Four years across AI engineering, data science, and running marketplace
+        shops — moving steadily toward production AI systems that actually ship.
+      </p>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span>Aug 2025 — Present</span>
+            <span>Tashkent, UZ</span>
+          </div>
+          <div class="timeline-body">
+            <h3>AI Engineer · <span class="muted">SinoAI</span></h3>
+            <ul>
+              <li>Developed and deployed a production AI medical consultation chatbot across Telegram, web, and mobile with multilingual support.</li>
+              <li>Built a custom medical RAG pipeline on ChromaDB + LangChain with a 4-step synthesis flow (Describe → Classify → Search → Generate).</li>
+              <li>Shipped real-time voice consultation: VAD, STT, LLM streaming, and TTS over WebSocket.</li>
+              <li>Engineered intent classification, emergency symptom detection, specialty routing, and multi-modal analysis (X-rays, PDF records).</li>
+              <li>Designed 15+ Tortoise ORM / PostgreSQL models; set up Langfuse observability; containerized with Docker on GCP and AWS.</li>
+              <li>Led AI-tooling adoption across the engineering team.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span>Apr 2025 — Jun 2025</span>
+            <span>Tashkent, UZ</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Data Science Intern · <span class="muted">Aisha AI</span></h3>
+            <ul>
+              <li>Collected and organized audio-text datasets for Uzbek TTS and STT model development.</li>
+              <li>Cleaned and preprocessed data to improve quality and consistency across modalities.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span>Apr 2024 — Feb 2025</span>
+            <span>Tashkent, UZ</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Project Manager · Data Analyst · <span class="muted">CommerceHub</span></h3>
+            <ul>
+              <li>Ran six online marketplace shops with a primary focus on Uzum Market.</li>
+              <li>Kanzec: grew monthly revenue from 80M to 160M UZS in 2 months, stabilized at 150–160M.</li>
+              <li>Bikon.uz: grew monthly revenue from 60M to 230M UZS in 3 months.</li>
+              <li>Built data-driven strategies for market analysis, product recommendations, and promotional campaigns.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span>Jun 2024 — Jul 2024</span>
+            <span>Tashkent, UZ</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Data Science Intern · <span class="muted">RealSoft AI</span></h3>
+            <ul>
+              <li>Applied Python, NumPy, and Pandas to clean and analyze real-world datasets.</li>
+              <li>Built classification and regression models with scikit-learn, including a house-price regressor.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+
+      <div class="page-foot">
+        <a href="/projects" class="page-back">Next: Selected projects →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>© <span id="year"></span> Javohir Hoshimov</span>
+    <span>Tashkent, Uzbekistan</span>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
