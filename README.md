@@ -7,13 +7,10 @@ Live at [javohir-hoshimov.uz](https://javohir-hoshimov.uz), served by nginx from
 
 ## Pages
 
-| File | URL |
-|---|---|
-| `index.html` | `/` |
-| `experience.html` | `/experience` |
-| `projects.html` | `/projects` |
-| `stack.html` | `/stack` |
-| `contact.html` | `/contact` |
+One page, `index.html` at `/`. Project thumbnails live in `img/`.
+
+`experience.html`, `projects.html`, `stack.html` and `contact.html` are redirect
+stubs to the matching `/#section`, kept so old links keep working.
 
 nginx resolves extensionless URLs via `try_files $uri $uri/ $uri.html`.
 
